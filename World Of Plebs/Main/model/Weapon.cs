@@ -8,6 +8,6 @@ namespace Main.model
 {
     public class Weapon : Item
     {
-
+        private String Type;
     }
 }
