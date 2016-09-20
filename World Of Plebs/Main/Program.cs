@@ -6,11 +6,30 @@ using System.Threading.Tasks;
 
 namespace Game
 {
-    class Program
+    public class Program
     {
+        private String hej;
+
+        public string Hej
+        {
+            get
+            {
+                Console.WriteLine("fuck u bigbooi");
+                return hej;
+            }
+
+            set
+            {
+                hej = value;
+            }
+        }
+
         static void Main(string[] args)
         {
-            Console.WriteLine("Hej allihop"); //Gustav
+            Program p = new Program();
+            p.hej = "här är jag";
+            Console.WriteLine(p.hej); //Gustav
+            Console.ReadKey();
         }
     }
 }
