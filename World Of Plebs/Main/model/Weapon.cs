@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace Main.model
 {
-    public class Item
+    public class Weapon : Item
     {
-        private int id;
-        private string name;
+
     }
 }

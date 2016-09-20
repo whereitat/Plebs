@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="model\Item.cs" />
     <Compile Include="model\Pleb.cs" />
+    <Compile Include="model\Weapon.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
