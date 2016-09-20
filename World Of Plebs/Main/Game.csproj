@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="model\Item.cs" />
     <Compile Include="model\plebs\Pleb.cs" />
+    <Compile Include="model\plebs\Skaune.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
