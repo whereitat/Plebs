@@ -8,9 +8,6 @@ namespace Main.model
 {
     class Pleb
     {
-        private string name;
-        private int level = 1;
-        private int attack;
-        private 
+        
     }
 }
