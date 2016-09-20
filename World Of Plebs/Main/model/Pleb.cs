@@ -11,6 +11,6 @@ namespace Main.model
         private string name;
         private int level = 1;
         private int attack;
-        private 
+        private int defense;
     }
 }
