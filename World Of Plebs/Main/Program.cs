@@ -14,6 +14,7 @@ namespace Game
         {
             get
             {
+                Console.WriteLine("fuck u bigbooi");
                 return hej;
             }
 
