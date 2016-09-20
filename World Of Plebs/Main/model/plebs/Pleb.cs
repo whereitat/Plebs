@@ -9,11 +9,19 @@ namespace Main.model
     class Pleb
     {
         private string name;
-        private int level = 1;
+        private int level = 1 * Xp * Xp);
+        private int xp = 1;
         private int attack = 1;
         private int defense = 1;
         private List<Item> items = new List<Item>();
 
+        //Constructors
+        public Pleb(string name)
+        {
+            this.name = name + "the Pleb";
+        }
+
+        //Properties
         public string Name
         {
             get
@@ -26,7 +34,6 @@ namespace Main.model
                 name = value;
             }
         }
-
         public int Level
         {
             get
@@ -39,7 +46,19 @@ namespace Main.model
                 level = value;
             }
         }
+        public int Xp
+        {
+            get
+            {
+                return xp;
+            }
 
+            set
+            {
+                xp += value;
+                Level = 1 * xp * xp;
+            }
+        }
         public int Attack
         {
             get
@@ -52,7 +71,6 @@ namespace Main.model
                 attack = value;
             }
         }
-
         public int Defense
         {
             get
@@ -65,8 +83,7 @@ namespace Main.model
                 defense = value;
             }
         }
-
-        internal List<Item> Items
+        public List<Item> Items
         {
             get
             {
@@ -78,5 +95,12 @@ namespace Main.model
                 items = value;
             }
         }
+
+        //Functions
+        public void GainXp(int xo)
+        {
+
+        }
+
     }
 }
