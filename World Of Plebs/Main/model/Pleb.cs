@@ -12,6 +12,7 @@ namespace Main.model
         private int level = 1;
         private int attack = 1;
         private int defense = 1;
+        private List<Item> items = new List<Item>();
 
         public string Name
         {
@@ -62,6 +63,19 @@ namespace Main.model
             set
             {
                 defense = value;
+            }
+        }
+
+        internal List<Item> Items
+        {
+            get
+            {
+                return items;
+            }
+
+            set
+            {
+                items = value;
             }
         }
     }
