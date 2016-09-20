@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Main.model
+namespace Main.model.plebs
 {
     class Pleb
     {
         private string name;
-        private int level = 1 * Xp * Xp);
+        private int level = 1;
         private int xp = 1;
         private int attack = 1;
         private int defense = 1;
